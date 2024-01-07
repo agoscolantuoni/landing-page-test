@@ -1,9 +1,9 @@
 :root {
   --lightgreen: #b2c40b;
-  --lightgreen2: #bad6a7;
+  --lightgreen2: #e4e9aa;
   --darkgreen: #076633;
   --lavanda: #aa8999;
-  --lightlavanda: #e5cfe3;
+  --lightlavanda: #eee2ed;
   --black: #080502;
   --white: #f5f7f8;
 }
@@ -85,6 +85,15 @@ main {
   flex-direction: column;
   column-gap: 2rem;
   align-items: center;
+  /* max-inline-size: 100%;
+  min-inline-size: 0;
+  padding-inline: 24px; */
+}
+
+.innerPage {
+   max-width: 1200px;
+   inline-size: 100%;
+   margin-inline: auto;
 }
 
 #hero {
@@ -106,10 +115,6 @@ main {
   border-radius: 0 24px 0px 24px;
 }
 
-/* .hero-text {
-  flex-grow: 1;
-} */
-
 .hero-title {
   padding-top: 20%;
   font-size: 100px;
@@ -130,12 +135,18 @@ main {
   color: var(--darkgreen);
 }
 
+.content-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
 #about-me {
   display: flex;
   gap: 2rem;
   background-color: var(--lightlavanda);
   padding: 3rem 7rem;
-  
 }
 
 .aboutMe-title {
@@ -167,14 +178,13 @@ main {
   border-radius: 0 24px 0px 24px;
 }
 .info-title {
-  margin-top: 6rem;
   text-align: center;
 }
 
 .info-image {
   max-width: 100%;
   min-width: 60%;
-border-top-right-radius: 24px;
+  border-top-right-radius: 24px;
   object-fit: cover;
   text-align: center;
 }
@@ -182,13 +192,35 @@ border-top-right-radius: 24px;
 .box-title {
   margin: 1rem 1rem;
   color: var(--lavanda);
-  
 }
 
 .box-text {
   width: 90%;
   margin: 1rem 0 1rem 1rem;
 }
+
+#my-online-office {
+  background-color: var(--lightgreen2);
+  padding: 2rem 7rem;
+}
+.my-online-office {
+  display: flex;
+  justify-content:;
+  gap: 2rem;
+}
+
+.my-online-office-p {
+width: 30%;
+font-size: 18px;
+}
+
+/* #contact-me {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--lightlavanda);
+  padding: 3rem 7rem;
+  
+} */
 
 #video {
   display: none;
