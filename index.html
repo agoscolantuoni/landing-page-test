@@ -6,83 +6,129 @@
     <meta name="description" content="tevesbien's nutrition page" />
     <title>Tevesbien Nutrición</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    link:boot
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Signika:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <header id="header">
+      <nav id="nav-bar" class="topNavbar">
+        <div class="logoElement">
+          <a class="nav-link" href="#hero"
+            ><img
+              class="logo"
+              id="header-img"
+              src="img/NUEVO LOGO TE VES BIEN.svg"
+              alt="tevesbien logo"
+          /></a>
+        </div>
+        <div class="centerNavEl">
+          <a class="nav-link nav-text" href="#about-me">About me</a>
+        </div>
+        <div class="centerNavEl">
+          <a class="nav-link nav-text" href="#info">Info</a>
+        </div>
+        <div class="centerNavEl">
+          <a class="nav-link nav-text" href="#my-online-office"
+            >My online office</a
+          >
+        </div>
+        <div class="centerNavEl">
+          <a class="nav-link nav-text" href="#contact-me">Contact me</a>
+        </div>
+      </nav>
+    </header>
     <main>
-      <header id="header">
-        <nav id="nav-bar">
-          <ul>
-            <li>
-              <a class="nav-link" href="#hero"
-                ><img
-                  id="header-img"
-                  src="img/NUEVO LOGO TE VES BIEN.svg"
-                  alt="tevesbien logo"
-              /></a>
-            </li>
-            <li><a class="nav-link" href="#about-me">About me</a></li>
-            <li><a class="nav-link" href="#info">Info</a></li>
-            <li>
-              <a class="nav-link" href="#my-online-office">My online office</a>
-            </li>
-            <li><a class="nav-link" href="#contact-me">Contact me</a></li>
-          </ul>
-        </nav>
-      </header>
       <div id="hero">
-        <img src="img/foto taty.png" alt="natali profile's photo" />
-        <h1 class="hero-title">Nourish your habits</h1>
-        <h2>
-          Empower yourself through healthy and pleasant nutrition to achieve
-          delicious wellness.
-        </h2>
+        <div class="hero-photo">
+          <img
+            class="profile-photo"
+            src="https://images.unsplash.com/photo-1585358682246-23acb1561f6b?q=80&w=1524&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="natali profile's photo"
+          />
+        </div>
+
+        <div class="hero-text">
+          <h1 class="hero-title">Nourish <br> your habits</h1>
+          <h2 class="hero-subtitle">
+            Empower yourself through healthy and pleasant nutrition to achieve
+            delicious wellness.
+          </h2>
+        </div>
       </div>
-      <div>
+      <div class="content-page">
         <section id="about-me">
-          <h2 class="section-title">Hi, I'm Taty!</h2>
-          <p>
-            Although many call me that, my name is Natalí Teves. I graduated as
-            a Bachelor of Nutrition mat. 2022/2. I am fascinated to explore the
-            incredible benefits that certain foods can bring to our body.
-          </p>
-          <p>
-            I am dedicated to providing food education in a conscious, intuitive
-            and comprehensive manner. My goal is that you experience the
-            beautiful act of eating without feeling guilty and, at the same
-            time, acquire knowledge to take care of your health.
-          </p>
-          <p>
-            My focus is on caring for our inner well-being, fostering a healthy
-            bond with food and our body.
-          </p>
-          <iframe id="video" frameborder="0" src="https://www.instagram.com/p/Ccn0LtsLcT5/"></iframe>
+          <div>
+            <h1 class="section-title aboutMe-title">Hi, I'm Taty!</h1>
+            <p>
+              Although many call me that, my name is Natalí Teves. I graduated
+              as a Bachelor of Nutrition. I am fascinated to explore the
+              incredible benefits that certain foods can bring to our body.
+            </p>
+            <p>
+              I am dedicated to providing food education in a conscious,
+              intuitive and comprehensive manner. My goal is that you experience
+              the beautiful act of eating without feeling guilty and, at the
+              same time, acquire knowledge to take care of your health.
+            </p>
+            <p>
+              My focus is on caring for our inner well-being, fostering a
+              healthy bond with food and our body.
+            </p>
+          </div>
+          <div>
+            <iframe
+              id="video"
+              frameborder="0"
+              src="https://www.instagram.com/p/Ccn0LtsLcT5/"
+            ></iframe>
+            <img
+              class="aboutMe-photo"
+              src="https://images.unsplash.com/photo-1556911073-a517e752729c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="women cooking"
+            />
+          </div>
         </section>
         <section id="info">
-          <h2 class="section-title">Let us begin your journey together</h2>
-          <div>
-            <div>
-              <img src="https://images.pexels.com/photos/19571075/pexels-photo-19571075/free-photo-of-persona-cuchara-comiendo-comida.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="girl eating an healthy breakfast" />
-              <h3>Habit Change</h3>
-              <p>
+          <h1 class="section-title info-title">Let us begin your journey together</h1>
+          <div class="info-items">
+            <div class="info-box">
+              <img class="info-image"
+                src="https://images.unsplash.com/photo-1474859569645-e0def92b02bc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="girl eating an healthy breakfast"
+              />
+              <h3 class="box-title">Habit change</h3>
+              <p class="box-text">
                 Geared towards adults seeking new nutritional habits tailored to
                 improve health and sustain them over time.
               </p>
             </div>
-            <div>
-              <img src="https://images.pexels.com/photos/4553029/pexels-photo-4553029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a table with tow persons eating vegetarian food" />
-              <h3>Vegetarian or Vegan Nutrition</h3>
-              <p>
+            <div class="info-box">
+              <img class="info-image"
+                src="https://images.pexels.com/photos/4553029/pexels-photo-4553029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="a table with tow persons eating vegetarian food"
+              />
+              <h3 class="box-title">Vegetarian or vegan nutrition</h3>
+              <p class="box-text">
                 Education and implementation of a proper plant-based diet,
                 whether entirely or partially, to ensure all necessary nutrients
                 are obtained.
               </p>
             </div>
-            <div>
-              <img src="https://images.pexels.com/photos/6928667/pexels-photo-6928667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="mom with her newborn son" />
-              <h3>Nutrition Based on Life Stage or Lifestyle</h3>
-              <p>
+            <div class="info-box">
+              <img class="info-image"
+                src="https://images.pexels.com/photos/6928667/pexels-photo-6928667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="mom with her newborn son"
+              />
+              <h3 class="box-title">Nutrition based on life stage or lifestyle</h3>
+              <p class="box-text">
                 Providing proper nutrition tailored to each stage of life:
                 during pregnancy or lactation, in old age, or for those engaging
                 in high-impact sports routines.
@@ -91,7 +137,7 @@
           </div>
         </section>
         <section id="my-online-office">
-          <h2 class="section-title">My Online Office</h2>
+          <h1 class="section-title">My Online Office</h1>
           <h3>Coordinate your nutritional journey</h3>
           <p>
             I offer online consultations through video calls, where we can
@@ -101,7 +147,7 @@
           <button>Schedule an Appointment</button>
         </section>
         <section id="contact-me">
-          <h2 class="section-title">Contact me</h2>
+          <h1 class="section-title">Contact me</h1>
           <p>
             Clear any doubts; I'm here to accompany you on the path to a
             healthier and balanced life.
@@ -182,35 +228,72 @@
           </form>
           <div>
             <h3>Find me on:</h3>
-            <div class="social-media">              
-              <a href="https://www.instagram.com/tevesbien.nutricion/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/natali-teves-0718ba85/" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
-              <a href="" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
-              <a href="https://www.linkedin.com/in/natali-teves-0718ba85/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+            <div class="social-media">
+              <a
+                href="https://www.instagram.com/tevesbien.nutricion/"
+                target="_blank"
+                rel="noopener"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/natali-teves-0718ba85/"
+                target="_blank"
+                rel="noopener"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+              <a href="" target="_blank" rel="noopener"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/natali-teves-0718ba85/"
+                target="_blank"
+                rel="noopener"
+                ><i class="bi bi-linkedin"></i
+              ></a>
             </div>
           </div>
           <div class="cta">
-            <div><i class="bi bi-highlighter"></i>
-            <h4>Nourish Yourself with Informative Content</h4></div>
-            <div><i class="bi bi-camera-video"></i>
-            <h4>Follow me here for more information.</h4></div>
-            <div><i class="bi bi-chat-square-text"></i>
-            <h4>Drop me a message</h4></div>
-          </div>
-
-        </section>
-        <footer>
-          <img src="img/NUEVO LOGO TE VES BIEN.svg" alt="tevesbien logo">
-          <p>Natali Teves</p>
-          <p>Bachelor of Nutrition mat. 2022/2</p>
-          <div class="social-media">              
-              <a href="https://www.instagram.com/tevesbien.nutricion/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/natali-teves-0718ba85/" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
-              <i class="bi bi-whatsapp"></i>
-              <a href="https://www.linkedin.com/in/natali-teves-0718ba85/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+            <div>
+              <i class="bi bi-highlighter"></i>
+              <h4>Nourish Yourself with Informative Content</h4>
             </div>
-        </footer>
+            <div>
+              <i class="bi bi-camera-video"></i>
+              <h4>Follow me here for more information.</h4>
+            </div>
+            <div>
+              <i class="bi bi-chat-square-text"></i>
+              <h4>Drop me a message</h4>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
+    <footer>
+      <img src="img/NUEVO LOGO TE VES BIEN.svg" alt="tevesbien logo" />
+      <p>Natali Teves</p>
+      <p>Bachelor of Nutrition</p>
+      <div class="social-media">
+        <a
+          href="https://www.instagram.com/tevesbien.nutricion/"
+          target="_blank"
+          rel="noopener"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/natali-teves-0718ba85/"
+          target="_blank"
+          rel="noopener"
+          ><i class="bi bi-tiktok"></i
+        ></a>
+        <i class="bi bi-whatsapp"></i>
+        <a
+          href="https://www.linkedin.com/in/natali-teves-0718ba85/"
+          target="_blank"
+          rel="noopener"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
